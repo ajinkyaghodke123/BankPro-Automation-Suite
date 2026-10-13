@@ -1,21 +1,22 @@
-/target/
-
-# Maven build output
+# Build output
 target/
 
-# TestNG reports
+# Test reports (generated on every run)
 test-output/
+allure-results/
+allure-report/
+extent-reports/
+screenshots/
 
-# IntelliJ / Eclipse
+# IDE files
 .idea/
 *.iml
 .classpath
 .project
 .settings/
+.vscode/
 
-# Logs and system files
+# Logs and OS files
 *.log
 .DS_Store
-
-# OS-specific
 Thumbs.db
